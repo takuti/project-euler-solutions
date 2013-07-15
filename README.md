@@ -1,2 +1,2 @@
-** takuti's solution of Project Euler
+## takuti's solution of Project Euler
 
