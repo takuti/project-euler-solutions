@@ -1,8 +1,8 @@
 # coding: utf-8
 
-def n_digit_fibo(n):
+def n_digits_fibo_term(n):
   """ Find the first term in the Fibonacci sequence to contain n digits
-  >>> n_digit_fibo(3)
+  >>> n_digits_fibo_term(3)
   12
   """
   f1 = 1
@@ -17,7 +17,7 @@ def n_digit_fibo(n):
     f2 = f
 
 def main():
-  print n_digit_fibo(1000)
+  print n_digits_fibo_term(1000)
 
 if __name__ == '__main__':
   import doctest
