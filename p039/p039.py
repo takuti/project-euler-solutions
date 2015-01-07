@@ -1,7 +1,7 @@
 # coding: utf-8
 
 def is_triangle(a, b, c):
-  """ c is the largest side
+  """ c is the longest edge
   >>> is_triangle(20, 48, 52)
   True
   >>> is_triangle(1, 1, 1)
