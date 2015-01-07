@@ -16,7 +16,7 @@ def count_solutions(p):
   3
   """
   solutions = []
-  for a in xrange(1, (p/2-2)+1):
+  for a in xrange(1, (p/2-2)+1): # p/2 because {a, b, c} and {c, b, a} are the same triangle
     for b in xrange(1, (p-2-a)+1):
       c = p - (a + b)
       l = sorted([a, b, c])
