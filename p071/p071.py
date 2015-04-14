@@ -13,7 +13,6 @@ def is_coprime(a, b):
 
 def main():
   d_limit = 1000000
-  #d_limit = 8
   target = 3./7. # we want to find the left value of 3/7
   left = ans_numerator = 0
   for d in xrange(2, d_limit+1):
